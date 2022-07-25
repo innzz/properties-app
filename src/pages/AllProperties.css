@@ -37,7 +37,7 @@
     left: 0;
     bottom: 0.3vh;
     position: absolute;
-    background-color: darkgreen;
+    background-color: #0C4121;
     color: #fff;
     padding: 0.5vh 1.5vh;
     font-size: 2vh;
@@ -61,7 +61,7 @@
 }
 
 .browseMore-button{
-   --background: black;
+   --background: #0C4121;
    color: #fff;
 }
 
@@ -84,4 +84,10 @@
 .best-price{
     padding-left: 2vh;
     margin-bottom: 0;
+}
+
+.img{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
 }
