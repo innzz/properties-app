@@ -34,6 +34,7 @@
 
 .bookButton {
   --background: rgb(255, 178, 78);
+  --color:white;
   display: flex;
   justify-content: flex-end;
   margin: auto;
