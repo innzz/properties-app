@@ -12,28 +12,28 @@ function Login() {
         <div className="content">
             <div className="inputs ion-text-start">
             
-            <IonItem className='input-box' color={'white'}>
-            <IonLabel position='stacked' className='input-label' color={'light'}>
+            <IonItem className='input-box' lines='none' color={'white'}>
+            <IonLabel position='stacked' className='input-label' >
                     EMAIL
             </IonLabel> 
-                <IonInput placeholder='hello@propertyDealer.com' className='input' color={'light'} />
+                <IonInput placeholder='hello@propertyDealer.com' className='input' />
             </IonItem>
-            <IonItem className='input-box' color={'white'}>
-                <IonLabel className='input-label' position='stacked' color={'light'}>
+            <IonItem className='input-box' lines='none' color={'white'}>
+                <IonLabel className='input-label' position='stacked' >
                     PASSWORD
                 </IonLabel>
-                <IonInput placeholder='*****' className='input' color={'light'}/>
+                <IonInput placeholder='*****' className='input' />
             </IonItem>
             </div>
             <IonGrid className='buttons'>
                 <IonRow className='buttons-row'>
                     <IonCol>
-                    <IonButton className='button' color={'light'}>Log In</IonButton>
+                    <IonButton className='button'  >Log In</IonButton>
                     </IonCol>
                 </IonRow>
                 <IonRow>
                     <IonCol>
-                    <IonButton className='button' color={'light'}>Create New Account</IonButton>
+                    <IonButton className='button' >Create New Account</IonButton>
                     </IonCol>
                 </IonRow>
             </IonGrid>
