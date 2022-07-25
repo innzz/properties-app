@@ -132,6 +132,7 @@
 
 .button1{
     width: 100% !important;
+    --background: #0C4121 !important;
 }
 .img{
     height: 100% !important;
