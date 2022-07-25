@@ -12,35 +12,35 @@ function SignUp() {
         <div className="content">
             <div className="inputs ion-text-start">
             
-            <IonItem className='input-box' color={'white'}>
-            <IonLabel position='stacked' className='input-label' color={'light'}>
+            <IonItem className='input-box'  lines="none">
+            <IonLabel position='stacked' className='input-label' >
                     NAME
             </IonLabel> 
-                <IonInput placeholder='INZAMAM' className='input' color={'light'} />
+                <IonInput placeholder='INZAMAM' className='input'  />
             </IonItem>
-            <IonItem className='input-box' color={'white'}>
-            <IonLabel position='stacked' className='input-label' color={'light'}>
+            <IonItem className='input-box'   lines="none">
+            <IonLabel position='stacked' className='input-label' >
                     EMAIL
             </IonLabel> 
-                <IonInput placeholder='hello@propertyDealer.com' className='input' color={'light'} />
+                <IonInput placeholder='hello@propertyDealer.com' className='input'  />
             </IonItem>
-            <IonItem className='input-box' color={'white'}>
-                <IonLabel className='input-label' position='stacked' color={'light'}>
+            <IonItem className='input-box'   lines="none">
+                <IonLabel className='input-label' position='stacked' >
                     PASSWORD
                 </IonLabel>
-                <IonInput placeholder='*****' className='input' color={'light'}/>
+                <IonInput placeholder='*****' className='input' />
             </IonItem>
-            <IonItem className='input-box' color={'white'}>
-                <IonLabel className='input-label' position='stacked' color={'light'}>
+            <IonItem className='input-box'   lines="none"> 
+                <IonLabel className='input-label' position='stacked' >
                     Mobile
                 </IonLabel>
-                <IonInput placeholder='+91 1000 2000' className='input' color={'light'}/>
+                <IonInput placeholder='+91 1000 2000' className='input' />
             </IonItem>
             </div>
             <IonGrid className='buttons'>
                 <IonRow className='buttons-row'>
                     <IonCol>
-                    <IonButton className='button' color={'light'}>Sign Up</IonButton>
+                    <IonButton className='button' >Sign Up</IonButton>
                     </IonCol>
                 </IonRow>
             </IonGrid>

@@ -11,17 +11,17 @@ function ForgotPass() {
         </div>
         <div className="content">
             <div className="inputs ion-text-start">
-            <IonItem className='input-box' color={'white'}>
-            <IonLabel position='stacked' className='input-label' color={'light'}>
+            <IonItem className='input-box' >
+            <IonLabel position='stacked' className='input-label' >
                     EMAIL
             </IonLabel> 
-                <IonInput placeholder='hello@propertyDealer.com' className='input' color={'light'} />
+                <IonInput placeholder='hello@propertyDealer.com' className='input'  />
             </IonItem>
             </div>
             <IonGrid className='buttons'>
                 <IonRow className='buttons-row'>
                     <IonCol>
-                    <IonButton className='button' color={'light'}>Send</IonButton>
+                    <IonButton className='button' >Send</IonButton>
                     </IonCol>
                 </IonRow>
             </IonGrid>

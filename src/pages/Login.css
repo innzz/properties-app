@@ -33,6 +33,7 @@
     margin: 0px 0px;
     --color: black !important;
     padding: 0.8vh 1vh !important;
+    --color:gray !important;
 }
 
 .input-label{
