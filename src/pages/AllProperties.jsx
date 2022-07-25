@@ -22,7 +22,7 @@ function AllProperties() {
             </IonRow>
             <IonRow>
                 <IonCol>
-                <IonButton className='button1'>For Buying</IonButton>
+                <IonButton className='button4'>For Buying</IonButton>
                 </IonCol>
             </IonRow>
         </IonGrid>

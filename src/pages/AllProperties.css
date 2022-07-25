@@ -132,6 +132,10 @@
 
 .button1{
     width: 100% !important;
+    --background: #6CBC8C !important;
+}
+.button4{
+    width: 100% !important;
     --background: #0C4121 !important;
 }
 .img{
