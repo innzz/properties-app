@@ -20,11 +20,13 @@ import "@ionic/react/css/flex-utils.css";
 import "@ionic/react/css/display.css";
 
 /* Theme variables */
+
 import "./theme/variables.css";
+import BookNow from "./pages/BookNow";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ForgotPass from "./pages/ForgotPass";
-import BookNow from "./pages/BookNow";
+import AllProperties from "./pages/AllProperties";
 
 setupIonicReact();
 
@@ -43,6 +45,9 @@ const App = () => (
         </Route>
         <Route exact path="/forgotpassword">
           <ForgotPass />
+        </Route>
+        <Route exact path="/allproperties">
+          <AllProperties />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
