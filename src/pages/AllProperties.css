@@ -1,0 +1,87 @@
+.main-container{
+    background-color: #fff;
+    color: black;
+    justify-content: flex-start;
+}
+
+.button {
+    color: black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button > span {
+    font-size: 3vh;
+}
+
+
+.card {
+    height: 15vh;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-card > .bottom-card-image-col > .card{
+    height: fit-content;
+}
+
+.bottom-card > .bottom-card-image-col > .card > img {
+    
+}
+
+
+
+.price-badge{
+    left: 0;
+    bottom: 0.3vh;
+    position: absolute;
+    background-color: darkgreen;
+    color: #fff;
+    padding: 0.5vh 1.5vh;
+    font-size: 2vh;
+    border-radius: 5px;
+}
+
+
+
+.bottom-card-heading-col{
+    padding: 0;
+    flex: 7;
+}
+.bottom-card-image-col{
+    padding: 0;
+    flex: 4;
+}
+
+.bottom-card-headers{
+    padding-left: 0;
+    flex: 7;
+}
+
+.browseMore-button{
+   --background: black;
+   color: #fff;
+}
+
+.top-content{
+    overflow: scroll;
+    padding: 2vh;
+}
+
+.bottom-card-headers{
+    /* padding-top: 1vh; */
+}
+
+.bottom-card-title{
+    font-size: 2.5vh;
+}
+.bottom-card-subTitle{
+    font-size: 2.vh;
+}
+
+.best-price{
+    padding-left: 2vh;
+    margin-bottom: 0;
+}

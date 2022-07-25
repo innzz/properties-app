@@ -24,6 +24,7 @@ import './theme/variables.css';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import ForgotPass from './pages/ForgotPass';
+import AllProperties from './pages/AllProperties';
 
 setupIonicReact();
 
@@ -42,6 +43,9 @@ const App = () => (
         </Route>
         <Route exact path="/forgotpassword">
           <ForgotPass />
+        </Route>
+        <Route exact path="/allproperties">
+          <AllProperties />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
