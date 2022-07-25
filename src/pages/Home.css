@@ -22,6 +22,8 @@
 }
 
 .button1{
-    --background: darkgreen !important;
     width: 70% !important;
+    --background: #0C4121 !important;
+    --color:white;
+    margin-top: 25px;
 }

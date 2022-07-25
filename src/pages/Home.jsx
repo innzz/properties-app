@@ -7,7 +7,7 @@ const Home = () => {
       <IonImg className='background-image' src='/Home_Page.svg' alt="image" />
       <IonContent className='content ion-text-center'>
         <IonImg className='logo' src="/Logo.svg" alt="" />
-        <h1>Find Your</h1>
+        <h2><b>Find Your</b></h2>
         <h2>Dream House</h2>
         <h4>Get free consultation today!</h4>
         <IonButton className='button1'>SIGN UP / LOG IN</IonButton>
