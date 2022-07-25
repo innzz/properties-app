@@ -1,0 +1,7 @@
+{
+  "name": "properties-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
