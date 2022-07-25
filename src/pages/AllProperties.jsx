@@ -1,4 +1,4 @@
-import { IonButton, IonPage, IonIcon, IonItem, IonContent, IonGrid, IonRow, IonCol, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCardSubtitle } from '@ionic/react';
+import { IonButton, IonPage, IonIcon, IonItem, IonContent, IonGrid, IonRow, IonCol, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCardSubtitle, IonImg } from '@ionic/react';
 import React from 'react';
 import './AllProperties.css';
 import {arrowForwardOutline} from 'ionicons/icons'
@@ -6,10 +6,33 @@ import {arrowForwardOutline} from 'ionicons/icons'
 function AllProperties() {
   return (
     <IonPage className='main-container ion-text-center'>
+        <div className="upper-content">
+        <IonImg className='background-image' src='/Home_Page.svg' />
+        <div className="upper-content-inner-container">
+        <IonImg className='logo' src="/Logo.svg" alt="" />
+        <div className="upper-content-headings">
+        <h1>Find Your</h1>
+        <h2>Dream House</h2>
+        <h4>Get free consultation today!</h4>
+        <IonGrid>
+            <IonRow>
+                <IonCol>
+                <IonButton className='button1'>For Rent</IonButton>
+                </IonCol>
+            </IonRow>
+            <IonRow>
+                <IonCol>
+                <IonButton className='button1'>For Buying</IonButton>
+                </IonCol>
+            </IonRow>
+        </IonGrid>
+        </div>
+        </div>
+        </div>
         <div className='top-content'>
         <IonItem className='button' color={'white'}>
             <span>Poperties</span>
-            <IonIcon slot='end' icon={arrowForwardOutline} />
+            <IonIcon slot='end' className='icon' icon={arrowForwardOutline} />
         </IonItem>
         <IonGrid className='top-content-cards'>
             <IonRow>

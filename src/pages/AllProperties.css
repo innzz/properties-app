@@ -2,9 +2,10 @@
     background-color: #fff;
     color: black;
     justify-content: flex-start;
+    overflow-y: scroll;
 }
 
-.button {
+.top-content > .button {
     color: black;
     width: 100%;
     justify-content: space-between;
@@ -12,6 +13,11 @@
 
 .button > span {
     font-size: 3vh;
+    color: black;
+}
+
+.button > .icon {
+    color: black;
 }
 
 
@@ -25,10 +31,6 @@
 
 .bottom-card > .bottom-card-image-col > .card{
     height: fit-content;
-}
-
-.bottom-card > .bottom-card-image-col > .card > img {
-    
 }
 
 
@@ -67,11 +69,8 @@
 
 .top-content{
     overflow: scroll;
+    position: relative;
     padding: 2vh;
-}
-
-.bottom-card-headers{
-    /* padding-top: 1vh; */
 }
 
 .bottom-card-title{
@@ -84,4 +83,53 @@
 .best-price{
     padding-left: 2vh;
     margin-bottom: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 10%;
+    top: 0;
+    left: 0;
+}
+
+.upper-content{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+.background-image{
+    object-position: bottom;
+    position: absolute;
+    width: 100%;
+}
+
+.upper-content-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.upper-content-headings{
+    position: absolute;
+}
+.upper-content-headings > h1{
+    font-size: 6vh;
+    margin: 0;
+}
+.upper-content-headings > h2{
+    font-size: 4vh;
+    margin: 0;
+}
+.upper-content-headings > h4{
+    font-size: 2vh;
+}
+
+.button1{
+    width: 100% !important;
 }
