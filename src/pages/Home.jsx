@@ -3,14 +3,14 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <IonPage>
+    <IonPage className='home-container'>
       <IonImg className='background-image' src='/Home_Page.svg' alt="image" />
-      <IonContent className='content ion-text-center'>
-        <IonImg className='logo' src="/Logo.svg" alt="" />
+      <IonContent className='content-home ion-text-center'>
+        <IonImg className='logo-home' src="/Logo.svg" alt="" />
         <h2><b>Find Your</b></h2>
         <h2>Dream House</h2>
         <h4>Get free consultation today!</h4>
-        <IonButton className='button1'>SIGN UP / LOG IN</IonButton>
+        <IonButton className='button2'>SIGN UP / LOG IN</IonButton>
       </IonContent>
     </IonPage>
   );

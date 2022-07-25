@@ -4,26 +4,32 @@
     position: relative;
 }
 
-.content{
+.content-home{
     position: absolute;
     --background: transparent;
     --color: black !important;
 }
-.content > h1{
+.content-home > h1{
     font-size: 6vh;
     margin: 0;
 }
-.content > h2{
+.content-home > h2{
     font-size: 4vh;
     margin: 0;
 }
-.content > h4{
+.content-home > h4{
     font-size: 2vh;
 }
 
-.button1{
-    width: 70% !important;
+.button2{
+    width: 80% !important;
     --background: #0C4121 !important;
     --color:white;
     margin-top: 25px;
+}
+
+.logo-home{
+    width: 50%;
+    display: inline-block;
+    margin: auto;
 }
