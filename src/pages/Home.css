@@ -1,0 +1,27 @@
+.background-image{
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    --background: transparent;
+    --color: black !important;
+}
+.content > h1{
+    font-size: 6vh;
+    margin: 0;
+}
+.content > h2{
+    font-size: 4vh;
+    margin: 0;
+}
+.content > h4{
+    font-size: 2vh;
+}
+
+.button{
+    --background: darkgreen !important;
+    width: 70% !important;
+}
