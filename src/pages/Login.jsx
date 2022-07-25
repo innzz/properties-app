@@ -28,7 +28,7 @@ function Login() {
             <IonGrid className='buttons'>
                 <IonRow className='buttons-row'>
                     <IonCol>
-                    <IonButton className='button'  >Log In</IonButton>
+                    <IonButton className='button' >Log In</IonButton>
                     </IonCol>
                 </IonRow>
                 <IonRow>
