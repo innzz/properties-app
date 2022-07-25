@@ -9,7 +9,7 @@ const Home = () => {
         <IonImg className='logo-home' src="/Logo.svg" alt="" />
         <h2><b>Find Your</b></h2>
         <h2>Dream House</h2>
-        <h4>Get free consultation today!</h4>
+        <h3>Get free consultation today!</h3>
         <IonButton className='button2'>SIGN UP / LOG IN</IonButton>
       </IonContent>
     </IonPage>
