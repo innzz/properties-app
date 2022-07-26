@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return (
     <IonPage className='home-container'>
-      <IonImg className='background-image' src='/Home_Page.svg' alt="image" />
+      <IonImg className='background-image' src='/Home_Page.svg' alt="image1" />
       <IonContent className='content-home ion-text-center'>
         <IonImg className='logo-home' src="/Logo.svg" alt="" />
         <h2><b>Find Your</b></h2>
