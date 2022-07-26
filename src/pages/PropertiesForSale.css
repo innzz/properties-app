@@ -1,0 +1,118 @@
+.main-container{
+    background-color: #fff;
+    color: black;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}
+
+.top-content > .button {
+    color: black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button > span {
+    font-size: 3vh;
+    color: black;
+}
+
+.button > .icon {
+    color: black;
+}
+
+
+.card {
+    height: 15vh;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-card > .bottom-card-image-col > .card{
+    height: fit-content;
+}
+
+
+
+.price-badge{
+    left: 0;
+    bottom: 0.3vh;
+    position: absolute;
+    background-color: #0C4121;
+    color: #fff;
+    padding: 0.5vh 1.5vh;
+    font-size: 2vh;
+    border-radius: 5px;
+}
+
+
+
+.bottom-card-heading-col{
+    padding: 0;
+    flex: 7;
+}
+.bottom-card-image-col{
+    padding: 0;
+    flex: 4;
+}
+
+.bottom-card-headers{
+    padding-left: 0;
+    flex: 7;
+}
+
+.browseMore-button{
+   --background: #0C4121;
+   color: #fff;
+}
+
+.top-content{
+    overflow: scroll;
+    position: relative;
+    padding: 2vh;
+}
+
+.bottom-card-title{
+    font-size: 2vh;
+}
+.bottom-card-subTitle{
+    font-size: 2.vh;
+}
+
+.best-price{
+    padding-left: 2vh;
+    margin-bottom: 0;
+}
+
+.logo{
+    position: absolute;
+    width: 10%;
+    top: 0;
+    left: 0;
+}
+
+.upper-content{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+.background-image{
+    object-position: bottom;
+    position: absolute;
+    width: 100%;
+}
+
+.price-tag-col{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.price-tag{
+    background-color: #0C4121;
+    color: #fff;
+    padding: 1vh 1vh;
+    border-radius: 5px;
+}
