@@ -28,6 +28,7 @@ import SignUp from "./pages/SignUp";
 import ForgotPass from "./pages/ForgotPass";
 import AllProperties from "./pages/AllProperties";
 import PropertiesForSale from "./pages/PropertiesForSale";
+import PropertiesForRent from "./pages/PropertiesForRent";
 
 setupIonicReact();
 
@@ -52,6 +53,9 @@ const App = () => (
         </Route>
         <Route exact path="/propertiesforsale">
           <PropertiesForSale />
+        </Route>
+        <Route exact path="/propertiesforrent">
+          <PropertiesForRent />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />

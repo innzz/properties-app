@@ -48,6 +48,6 @@
 }
 
 .button {
-    --background: black;
+    --background: black !important;
     color: white !important;
 }

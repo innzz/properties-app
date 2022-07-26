@@ -1,4 +1,5 @@
 import { IonButton, IonContent, IonImg, IonPage } from '@ionic/react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
         <h2><b>Find Your</b></h2>
         <h2>Dream House</h2>
         <h3>Get free consultation today!</h3>
-        <IonButton className='button2'>SIGN UP / LOG IN</IonButton>
+        <Link to={"/signup"}>
+          <IonButton className='button2'>SIGN UP / LOG IN</IonButton>
+        </Link>
       </IonContent>
     </IonPage>
   );
