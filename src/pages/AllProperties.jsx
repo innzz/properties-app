@@ -44,24 +44,29 @@ function AllProperties() {
                 <IonGrid className='top-content-cards'>
                     <IonRow>
                         <IonCol className='card-col'>
+                            <Link to={'/checkout'}>
                             <IonCard className='card'>
                                 <IonImg className='img' src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvcGVydGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
 
                                 {/* <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvcGVydGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="image1" /> */}
                                 <span className='price-badge'>$239k</span>
                             </IonCard>
+                            </Link>
                         </IonCol>
                         <IonCol className='card-col'>
+                            <Link to={'/checkout'}>
                             <IonCard className='card'>
                                 <IonImg className='img' src='https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvcGVydGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' />
                                 {/* <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvcGVydGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="image1" /> */}
                                 <span className='price-badge'>$239k</span>
                             </IonCard>
+                            </Link>
                         </IonCol>
                     </IonRow>
                 </IonGrid>
                 <h3 className='best-price ion-text-left'>Best Price</h3>
                 <IonGrid className='bottom-content-cards'>
+                    <Link to={'/checkout'}>
                     <IonRow className='bottom-card'>
                         <IonCol className='bottom-card-image-col'>
                             <IonCard className='card'>
@@ -152,6 +157,7 @@ function AllProperties() {
                             </IonCardHeader>
                         </IonCol>
                     </IonRow>
+                    </Link>
                 </IonGrid>
                 <div>
                     <IonButton className='browseMore-button'>

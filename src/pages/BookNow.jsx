@@ -4,7 +4,7 @@ import { IonPage, IonGrid, IonRow, IonCol, IonButton } from "@ionic/react";
 
 const Checkout = () => {
   return (
-    <IonPage>
+    <IonPage className="book-now-outer-container">
       <div className="container">
         <IonGrid>
           <IonRow>
