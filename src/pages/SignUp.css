@@ -54,3 +54,7 @@
     font-size: 1.8vh !important;
     --color:white;
 }
+
+.input-box{
+    --background: white;
+}
