@@ -10,9 +10,7 @@ function PropertiesForSale() {
             <div className='top-content'>
                 <IonItem className='button' color={'white'}>
                     <span>Poperties for Sale</span>
-                    <Link to={"/home"}>
-                        <IonIcon slot='end' className='icon' icon={arrowForwardOutline} />
-                    </Link>
+                        <IonIcon slot='end' className='icon' onclick="location.href='/allproperties'" block  icon={arrowForwardOutline} />
                 </IonItem>
                 <IonGrid className='top-content-cards'>
                     <IonRow>
